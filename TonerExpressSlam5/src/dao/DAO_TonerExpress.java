@@ -19,6 +19,8 @@ public class DAO_TonerExpress
 		String texte, ref, desi;
 		boolean encore;
 		
+		lesImp = new Vector<Imprimante>();
+		
 		try
 		{
 			cnt = OracleConnection.getConnection("IG2","scott","tiger");		
